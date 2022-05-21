@@ -4,15 +4,21 @@ using UnityEngine;
 
 public class MovementManager : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] float playerSpeedModifier = 1f;
+    float xInput = 0f;
+    float yInput = 0f;
+
     void Start()
     {
         
     }
-
-    // Update is called once per frame
     void Update()
     {
-        
+        // translate speed update
+        xInput = playerSpeedModifier * Input.GetAxis("Horizontal") * Time.deltaTime;
+        yInput = playerSpeedModifier * Input.GetAxis("Vertical") * Time.deltaTime;
+        // translate action
+
+        transform.Translate(xInput, yInput, 0f);
     }
 }

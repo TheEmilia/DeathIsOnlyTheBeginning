@@ -472,6 +472,8 @@ GameObject:
   - component: {fileID: 1529942504}
   - component: {fileID: 1529942503}
   - component: {fileID: 1529942502}
+  - component: {fileID: 1529942507}
+  - component: {fileID: 1529942506}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -593,6 +595,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1529942506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529942501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0294c50b4ebe674588603c92b06cc5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1529942507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1529942501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b2fa84cf72b322c4783cad12a6a3d0ba, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpeedModifier: 1
 --- !u!1 &1542131420
 GameObject:
   m_ObjectHideFlags: 0
@@ -660,6 +687,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1778552157}
+  - component: {fileID: 1778552158}
   m_Layer: 0
   m_Name: SpawnPoint
   m_TagString: Untagged
@@ -682,6 +710,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1778552158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778552156}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dcd1c213f58a3b44862995fcaeedc68, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1914933818
 GameObject:
   m_ObjectHideFlags: 0
