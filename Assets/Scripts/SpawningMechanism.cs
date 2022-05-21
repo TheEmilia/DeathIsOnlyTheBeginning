@@ -4,9 +4,11 @@ using UnityEngine;
 
 public class SpawningMechanism : MonoBehaviour
 {
-    void Update()
+    [SerializeField] GameObject playerPrefab;
+    Transform spawnLocation;
+    public void SpawnNewPlayer()
     {
-       // check if there's a player
-       // spawn one if not 
+        spawnLocation = this.gameObject.transform;
+        Instantiate(playerPrefab,spawnLocation);
     }
 }
