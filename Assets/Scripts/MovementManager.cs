@@ -5,20 +5,24 @@ using UnityEngine;
 public class MovementManager : MonoBehaviour
 {
     [SerializeField] float playerSpeedModifier = 1f;
-    float xInput = 0f;
-    float yInput = 0f;
+
+    Rigidbody2D rb2d;
 
     void Start()
     {
-        
+        rb2d = GetComponent<Rigidbody2D>();
     }
     void Update()
-    {
-        // translate speed update
-        xInput = playerSpeedModifier * Input.GetAxis("Horizontal") * Time.deltaTime;
-        yInput = playerSpeedModifier * Input.GetAxis("Vertical") * Time.deltaTime;
-        // translate action
+	{
+		HandleHorizontalInput();
 
-        transform.Translate(xInput, yInput, 0f);
-    }
+	}
+
+	void HandleHorizontalInput()
+	{
+		// Create appropriate vector2
+		Vector2 xInput = playerSpeedModifier * Input.GetAxis("Horizontal") * Vector2.right * Time.deltaTime * 1000;
+        // Move the current player instance
+		rb2d.AddForce(xInput);
+	}
 }
