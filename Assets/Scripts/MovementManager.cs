@@ -6,7 +6,9 @@ using UnityEngine;
 public class MovementManager : MonoBehaviour
 {
     [SerializeField] float playerSpeedModifier = 1f;
-    [SerializeField] float playerJumpModifier = 10f;
+    [SerializeField] float playerJumpModifier = 35f;
+    [SerializeField] float normalGravityScale = 1f;
+    [SerializeField] float fallingGravityScale = 4f;
 
     Rigidbody2D rb2d;
     bool isAlive = true;
@@ -28,7 +30,7 @@ public class MovementManager : MonoBehaviour
 	void HandleJump()
 	{
         Vector2 jumpImpulse = Vector2.up * playerJumpModifier;
-        
+
         if(canJump)
         {
 		    if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
@@ -36,6 +38,14 @@ public class MovementManager : MonoBehaviour
                 rb2d.AddForce(jumpImpulse, ForceMode2D.Impulse);
                 canJump = false;
             }
+        }
+        if(rb2d.velocity.y >= 0)
+        {
+            rb2d.gravityScale = normalGravityScale;
+        }
+        else if(rb2d.velocity.y < 0)
+        {
+            rb2d.gravityScale = fallingGravityScale;
         }
 
 	}
