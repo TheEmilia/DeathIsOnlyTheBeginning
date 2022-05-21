@@ -6,16 +6,19 @@ public class CollisionHandler : MonoBehaviour
 {
     SpawningMechanism spawningMechanism;
     MovementManager movementManager;
+    LevelManager levelManager;
 
     private void Start() {
         spawningMechanism = FindObjectOfType<SpawningMechanism>();
         movementManager = FindObjectOfType<MovementManager>();
+        levelManager = FindObjectOfType<LevelManager>();
     }
     void OnTriggerEnter2D(Collider2D other) {
         if(other.gameObject.tag == "Finish" && this.tag == "Player")
         {
             Debug.Log("Player Wins");
             //Load next level or send to level select
+            levelManager.HandleFinish();
         }
         else if (other.gameObject.tag == "Spikes" && this.tag == "Player")
         {

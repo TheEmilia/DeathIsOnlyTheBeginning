@@ -28,11 +28,14 @@ public class MovementManager : MonoBehaviour
 	void HandleJump()
 	{
         Vector2 jumpImpulse = Vector2.up * playerJumpModifier;
-
-		if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+        
+        if(canJump)
         {
-            rb2d.AddForce(jumpImpulse, ForceMode2D.Impulse);
-            canJump = false;
+		    if(Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            {
+                rb2d.AddForce(jumpImpulse, ForceMode2D.Impulse);
+                canJump = false;
+            }
         }
 
 	}

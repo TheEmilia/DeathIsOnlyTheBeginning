@@ -9,4 +9,9 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("Loading level select");
     }
+
+    public void HandleFinish()
+    {
+        Debug.Log("Level Manager handling");
+    }
 }
