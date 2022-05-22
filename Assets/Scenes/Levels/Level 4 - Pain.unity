@@ -143,9 +143,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4434754121722825266, guid: 7fa42217d5b29e941a57d68b5a0c99e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4434754121722825266, guid: 7fa42217d5b29e941a57d68b5a0c99e4, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 772117476}
+    - target: {fileID: 4434754121722825266, guid: 7fa42217d5b29e941a57d68b5a0c99e4, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
     - target: {fileID: 4434754123331156411, guid: 7fa42217d5b29e941a57d68b5a0c99e4, type: 3}
       propertyPath: m_Name
       value: Exit Overlay
@@ -252,11 +260,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4434754123345256775, guid: 7fa42217d5b29e941a57d68b5a0c99e4, type: 3}
       propertyPath: m_text
-      value: 
+      value: (I'm not even sure that this is beatable)
       objectReference: {fileID: 0}
     - target: {fileID: 4434754123345256775, guid: 7fa42217d5b29e941a57d68b5a0c99e4, type: 3}
       propertyPath: m_fontSize
-      value: 36
+      value: 24.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7fa42217d5b29e941a57d68b5a0c99e4, type: 3}
@@ -344,15 +352,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3955861668397760701, guid: acf1376013af36b4a9ff5945a43c7c6e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 1.125
+      objectReference: {fileID: 0}
+    - target: {fileID: 3955861668397760701, guid: acf1376013af36b4a9ff5945a43c7c6e, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3955861668397760701, guid: acf1376013af36b4a9ff5945a43c7c6e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 7.28
       objectReference: {fileID: 0}
     - target: {fileID: 3955861668397760701, guid: acf1376013af36b4a9ff5945a43c7c6e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.33
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: 3955861668397760701, guid: acf1376013af36b4a9ff5945a43c7c6e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -701,7 +713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2203852011167456952, guid: 058fdc5a402efef4ea795f413b158b0f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.24
+      value: 3.79
       objectReference: {fileID: 0}
     - target: {fileID: 2203852011167456952, guid: 058fdc5a402efef4ea795f413b158b0f, type: 3}
       propertyPath: m_LocalPosition.z

@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level 3 - Stairs.unity
     guid: b222b61d431f32044afeadf18d9ca865
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level 4 - Pain.unity
+    guid: 38f1bb62724cf0d4cbd3ad55f8f8b85b
   m_configObjects: {}

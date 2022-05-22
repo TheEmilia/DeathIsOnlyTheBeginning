@@ -61,6 +61,8 @@ public class MovementManager : MonoBehaviour
     public void KillPlayer()
     {
         isAlive = false;
+        rb2d.drag = 1;
+        rb2d.gravityScale = fallingGravityScale;
     }
 
     public void SetCanJump(bool state)

@@ -5,7 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class LevelManager : MonoBehaviour
 {
-    //TODO: Hook up main menu, make more levels, load next level on completion
+    int currentSceneIndex;
+    void Start() 
+    {
+        currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
+    }
 
     void Update() 
     {
@@ -14,19 +18,28 @@ public class LevelManager : MonoBehaviour
             ReloadCurrentLevel();
         }
     }
-    public void LoadLevelSelect()
-    {
-        Debug.Log("Loading level select");
-        SceneManager.LoadScene(0);
-    }
 
     public void HandleFinish()
     {
         Debug.Log("Level Manager handling");
+        int numScenes = SceneManager.sceneCountInBuildSettings;
+        if(currentSceneIndex < numScenes)
+        {
+            SceneManager.LoadScene(currentSceneIndex++); // load next level
+        } 
+        else
+        {
+            LoadLevel(0);
+        }
     }
 
     void ReloadCurrentLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        LoadLevel(currentSceneIndex);
+    }
+
+    public void LoadLevel(int i)
+    {
+        SceneManager.LoadScene(i);
     }
 }

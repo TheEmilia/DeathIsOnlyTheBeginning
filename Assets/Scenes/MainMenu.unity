@@ -315,6 +315,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2098814948}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_text
+      value: 'Stairs
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_fontSize
+      value: 22.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5992058468937523346, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
       propertyPath: m_Name
       value: LevelSelectButton (3)
@@ -484,6 +518,40 @@ PrefabInstance:
     - target: {fileID: 2803393350510783564, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2098814948}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_text
+      value: 'Bridge
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_fontSize
+      value: 22.15
       objectReference: {fileID: 0}
     - target: {fileID: 5992058468937523346, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
       propertyPath: m_Name
@@ -979,6 +1047,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2098814948}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_text
+      value: 'Pain
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_fontSize
+      value: 22.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5992058468937523346, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
       propertyPath: m_Name
       value: LevelSelectButton (4)
@@ -1081,6 +1183,40 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2098814948}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_text
+      value: 'Tunnel
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_fontSize
+      value: 22.15
+      objectReference: {fileID: 0}
     - target: {fileID: 5992058468937523346, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
       propertyPath: m_Name
       value: LevelSelectButton (2)
@@ -1168,6 +1304,74 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2092589138}
   m_CullTransparentMesh: 1
+--- !u!1001 &2098814947
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1503254552177076616, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_Name
+      value: LevelManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1503254552177076618, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+--- !u!114 &2098814948 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1503254552177076619, guid: 20b134730c1ec3b4b9ed66fa1a413209, type: 3}
+  m_PrefabInstance: {fileID: 2098814947}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7cc1c20a00cfce7439994097bd51595d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &2115891329120418815
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1259,13 +1463,37 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2098814948}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadLevel
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: LevelManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3095939257837157783, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
       propertyPath: m_text
       value: Tutorial
       objectReference: {fileID: 0}
     - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
       propertyPath: m_fontSize
-      value: 18
+      value: 22.15
       objectReference: {fileID: 0}
     - target: {fileID: 5312385156099647486, guid: 74edf5c1f8b5f374faf0ef28a377417c, type: 3}
       propertyPath: m_enableAutoSizing
