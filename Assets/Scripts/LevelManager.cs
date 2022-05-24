@@ -23,9 +23,9 @@ public class LevelManager : MonoBehaviour
     {
         Debug.Log("Level Manager handling");
         int numScenes = SceneManager.sceneCountInBuildSettings;
-        if(currentSceneIndex < numScenes)
+        if(currentSceneIndex +1 <= numScenes)
         {
-            SceneManager.LoadScene(currentSceneIndex++); // load next level
+            SceneManager.LoadScene(currentSceneIndex + 1); // load next level
         } 
         else
         {
